@@ -1,0 +1,224 @@
+{
+  "space_marines": [
+    {
+      "id": "sm_captain",
+      "nom": "Captain with Jump Pack",
+      "image": "image2.jpg",
+      "type_fr": "QG",
+      "type_en": "HQ",
+      "type_nl": "HK",
+      "points": 80,
+      "description_fr": "Boite contenant 1 figurine en plastique a assembler et peindre. Le Capitaine avec Jump Pack est le commandant supreme d une compagnie Space Marine. Equipe d un pack de saut, il peut traverser le champ de bataille en un instant pour inspirer ses freres au combat. Niveau de peinture : debutant. Inclus : 1 figurine, 1 socle rond 40mm, notice de montage.",
+      "description_en": "Box containing 1 plastic miniature to assemble and paint. The Captain with Jump Pack is the supreme commander of a Space Marine company. Equipped with a jump pack, he can cross the battlefield in an instant. Painting level: beginner. Includes: 1 miniature, 1 40mm round base, assembly instructions.",
+      "description_nl": "Doos met 1 plastic miniatuur om te assembleren en te schilderen. De Kapitein met Jump Pack is de opperbevelhebber van een Space Marine compagnie. Schilderniveau: beginner. Inhoud: 1 miniatuur, 1 rond 40mm voetstuk, montageinstructies.",
+      "ventes": [
+        320,
+        345,
+        310,
+        380,
+        400,
+        420,
+        390,
+        445,
+        470,
+        510
+      ]
+    },
+    {
+      "id": "sm_intercessor",
+      "nom": "Terminator Squad",
+      "image": "image3.jpg",
+      "type_fr": "Troupe elite",
+      "type_en": "Elite Troop",
+      "type_nl": "Elite Troep",
+      "points": 175,
+      "description_fr": "Boite contenant 6 figurines en plastique a assembler et peindre. Les Terminators sont les guerriers les plus blindes de l Imperium portant la legendaire armure Terminator. Niveau de peinture : intermediaire. Inclus : 6 figurines Terminator, socles ronds 40mm, armement au choix (bolters lourds, canons d assaut), notice de montage.",
+      "description_en": "Box containing 6 plastic miniatures to assemble and paint. Terminators are the most heavily armored warriors of the Imperium wearing the legendary Terminator armor. Painting level: intermediate. Includes: 6 Terminator miniatures, 40mm round bases, weapon options (heavy bolters, assault cannons), assembly instructions.",
+      "description_nl": "Doos met 6 plastic miniaturen om te assembleren en te schilderen. Terminators zijn de zwaarst gepantserde krijgers van het Imperium. Schilderniveau: gemiddeld. Inhoud: 6 Terminator miniaturen, ronde 40mm voetstukken, wapenkeuze, montageinstructies.",
+      "ventes": [
+        890,
+        920,
+        1050,
+        1100,
+        980,
+        1200,
+        1350,
+        1420,
+        1500,
+        1650
+      ]
+    },
+    {
+      "id": "sm_dreadnought",
+      "nom": "Gladiator",
+      "image": "image4.jpg",
+      "type_fr": "Vehicule de guerre",
+      "type_en": "War Vehicle",
+      "type_nl": "Oorlogsvoertuig",
+      "points": 135,
+      "description_fr": "Boite contenant 1 char Space Marine en plastique a assembler et peindre. Le Gladiator est un char de combat Primaris ultra-moderne disponible en 3 variantes : Lancer, Reaper ou Valiant selon l armement choisi lors du montage. Niveau de peinture : intermediaire a avance. Inclus : 1 char complet, armement modulable, socle oval, decalcomanies Space Marines, notice de montage detaillee.",
+      "description_en": "Box containing 1 plastic Space Marine tank to assemble and paint. The Gladiator is an ultra-modern Primaris battle tank available in 3 variants: Lancer, Reaper or Valiant depending on weapons chosen during assembly. Painting level: intermediate to advanced. Includes: 1 complete tank, modular weapons, oval base, Space Marines decals, detailed assembly instructions.",
+      "description_nl": "Doos met 1 plastic Space Marine tank om te assembleren en te schilderen. De Gladiator is een ultramoderne Primaris gevechtstank beschikbaar in 3 varianten. Schilderniveau: gemiddeld tot gevorderd. Inhoud: 1 volledige tank, modulaire wapens, ovaal voetstuk, transfers, montageinstructies.",
+      "ventes": [
+        210,
+        225,
+        240,
+        260,
+        230,
+        280,
+        310,
+        295,
+        330,
+        360
+      ]
+    }
+  ],
+  "necrons": [
+    {
+      "id": "nec_overlord",
+      "nom": "Hierotek Circle - Kill Team",
+      "image": "image5.jpg",
+      "type_fr": "Kill Team - Elite",
+      "type_en": "Kill Team - Elite",
+      "type_nl": "Kill Team - Elite",
+      "points": 95,
+      "description_fr": "Boite Kill Team contenant 8 figurines Necrons en plastique a assembler et peindre. Le Hierotek Circle est compose d un Cryptek Necron et de sa suite de guerriers d elite. Ces scientifiques-guerriers immortels maitrisent les technologies les plus avancees de la galaxie. Niveau de peinture : intermediaire. Inclus : 1 Cryptek, 7 figurines de suite, socles ronds, armement Necron, notice de montage.",
+      "description_en": "Kill Team box containing 8 Necron plastic miniatures to assemble and paint. The Hierotek Circle consists of a Necron Cryptek and his retinue of elite warriors. These immortal warrior-scientists master the most advanced technologies in the galaxy. Painting level: intermediate. Includes: 1 Cryptek, 7 retinue miniatures, round bases, Necron weapons, assembly instructions.",
+      "description_nl": "Kill Team doos met 8 Necron plastic miniaturen om te assembleren en te schilderen. De Hierotek Circle bestaat uit een Necron Cryptek en zijn gevolg van elite-krijgers. Schilderniveau: gemiddeld. Inhoud: 1 Cryptek, 7 gevolg miniaturen, ronde voetstukken, Necron wapens, montageinstructies.",
+      "ventes": [
+        280,
+        295,
+        310,
+        330,
+        350,
+        370,
+        360,
+        390,
+        420,
+        450
+      ]
+    },
+    {
+      "id": "nec_warrior",
+      "nom": "Catacomb Command Barge",
+      "image": "image6.jpg",
+      "type_fr": "Vehicule de commandement",
+      "type_en": "Command Vehicle",
+      "type_nl": "Commandovoertuig",
+      "points": 120,
+      "description_fr": "Boite contenant 1 vehicule Necron en plastique a assembler et peindre. La Barque de Commandement des Catacombes est le trone volant de l Overlord Necron. Peut aussi etre monte en Annihilation Barge selon votre choix lors du montage. Niveau de peinture : intermediaire a avance. Inclus : 1 vehicule complet, 1 figurine Overlord Necron, armement au choix, socle oval, notice de montage.",
+      "description_en": "Box containing 1 plastic Necron vehicle to assemble and paint. The Catacomb Command Barge is the flying throne of the Necron Overlord. Can also be built as an Annihilation Barge. Painting level: intermediate to advanced. Includes: 1 complete vehicle, 1 Necron Overlord miniature, weapon options, oval base, assembly instructions.",
+      "description_nl": "Doos met 1 plastic Necron voertuig om te assembleren en te schilderen. De Catacomb Command Barge is de vliegende troon van de Necron Overlord. Kan ook gebouwd worden als Annihilation Barge. Schilderniveau: gemiddeld tot gevorderd. Inhoud: 1 volledig voertuig, 1 Necron Overlord miniatuur, wapenkeuze, ovaal voetstuk, montageinstructies.",
+      "ventes": [
+        750,
+        820,
+        900,
+        950,
+        880,
+        1050,
+        1100,
+        1200,
+        1300,
+        1450
+      ]
+    },
+    {
+      "id": "nec_monolith",
+      "nom": "Ophydian Destroyers",
+      "image": "image7.jpg",
+      "type_fr": "Attaque rapide",
+      "type_en": "Fast Attack",
+      "type_nl": "Snelle aanval",
+      "points": 320,
+      "description_fr": "Boite contenant 4 figurines Necrons en plastique a assembler et peindre. Les Destroyers Ophydiens ont leur corps remplace par une forme serpentine terrifiante. Capables de traverser les sols, ils surgissent derriere les lignes ennemies. Niveau de peinture : intermediaire. Inclus : 4 figurines Destroyer Ophydien, socles ronds 50mm, armement (faux d hydrolyse, appendices de combat), notice de montage.",
+      "description_en": "Box containing 4 plastic Necron miniatures to assemble and paint. Ophydian Destroyers have their bodies replaced by a terrifying serpentine form. Capable of passing through the ground, they emerge behind enemy lines. Painting level: intermediate. Includes: 4 Ophydian Destroyer miniatures, 50mm round bases, weapons, assembly instructions.",
+      "description_nl": "Doos met 4 plastic Necron miniaturen om te assembleren en te schilderen. Ophydian Destroyers hebben hun lichaam vervangen door een slangenachtige vorm. Ze bewegen door de grond. Schilderniveau: gemiddeld. Inhoud: 4 miniaturen, ronde 50mm voetstukken, bewapening, montageinstructies.",
+      "ventes": [
+        120,
+        130,
+        145,
+        160,
+        140,
+        175,
+        190,
+        185,
+        210,
+        240
+      ]
+    }
+  ],
+  "orks": [
+    {
+      "id": "ork_warboss",
+      "nom": "Wrecka Krew - Kill Team",
+      "image": "image8.jpg",
+      "type_fr": "Kill Team - Assaut",
+      "type_en": "Kill Team - Assault",
+      "type_nl": "Kill Team - Aanval",
+      "points": 85,
+      "description_fr": "Boite Kill Team contenant 8 figurines Orks en plastique a assembler et peindre. La Wrecka Krew est composee de Ork Breaka Boyz et de Tankbustas Mob specialises dans la destruction de vehicules ennemis. Ideal pour debuter avec les Orks ! Niveau de peinture : debutant a intermediaire. Inclus : 8 figurines Ork, socles ronds, rokkit launcher, bombes tankbusta, accessoires Orks, notice de montage.",
+      "description_en": "Kill Team box containing 8 Ork plastic miniatures to assemble and paint. The Wrecka Krew consists of Ork Breaka Boyz and Tankbustas Mob specialized in destroying enemy vehicles. Perfect to start with Orks! Painting level: beginner to intermediate. Includes: 8 Ork miniatures, round bases, rokkit launcher, tankbusta bombs, Ork accessories, assembly instructions.",
+      "description_nl": "Kill Team doos met 8 Ork plastic miniaturen om te assembleren en te schilderen. De Wrecka Krew bestaat uit Ork Breaka Boyz en Tankbustas Mob gespecialiseerd in het vernietigen van vijandelijke voertuigen. Schilderniveau: beginner tot gemiddeld. Inhoud: 8 Ork miniaturen, ronde voetstukken, rokkit launcher, tankbusta bommen, accessoires, montageinstructies.",
+      "ventes": [
+        300,
+        320,
+        290,
+        340,
+        360,
+        380,
+        350,
+        400,
+        430,
+        460
+      ]
+    },
+    {
+      "id": "ork_boyz",
+      "nom": "Ghazghkull Thraka",
+      "image": "image9.jpg",
+      "type_fr": "QG Legendaire",
+      "type_en": "Legendary HQ",
+      "type_nl": "Legendarische HK",
+      "points": 300,
+      "description_fr": "Boite contenant 2 figurines en plastique a assembler et peindre. Ghazghkull Thraka est le plus grand Warboss Ork de la galaxie, un prophete de la WAAAGH ! Accompagne de Makari son porte-drapeau Gretchin porte-bonheur. Une des figurines les plus impressionnantes de Warhammer 40K ! Niveau de peinture : avance. Inclus : 1 figurine Ghazghkull Thraka (enorme), 1 figurine Makari le Gretchin, socles ronds, accessoires iconiques, notice de montage detaillee.",
+      "description_en": "Box containing 2 plastic miniatures to assemble and paint. Ghazghkull Thraka is the greatest Ork Warboss in the galaxy, a prophet of the WAAAGH! Accompanied by Makari his lucky Gretchin banner bearer. One of the most impressive miniatures in Warhammer 40K! Painting level: advanced. Includes: 1 Ghazghkull Thraka miniature (enormous), 1 Makari the Gretchin miniature, round bases, iconic accessories, detailed assembly instructions.",
+      "description_nl": "Doos met 2 plastic miniaturen om te assembleren en te schilderen. Ghazghkull Thraka is de grootste Ork Warboss in de melkweg, een profeet van de WAAAGH! Vergezeld door Makari zijn gelukbrenger Gretchin. Schilderniveau: gevorderd. Inhoud: 1 Ghazghkull Thraka miniatuur (enorm), 1 Makari de Gretchin miniatuur, ronde voetstukken, iconische accessoires, montageinstructies.",
+      "ventes": [
+        1200,
+        1350,
+        1100,
+        1400,
+        1500,
+        1600,
+        1450,
+        1700,
+        1800,
+        2000
+      ]
+    },
+    {
+      "id": "ork_battlewagon",
+      "nom": "Orks Boyz",
+      "image": "image10.jpg",
+      "type_fr": "Troupe de base",
+      "type_en": "Basic Troop",
+      "type_nl": "Basistroep",
+      "points": 70,
+      "description_fr": "Boite contenant 11 figurines Orks en plastique a assembler et peindre. Les Ork Boyz sont l epine dorsale de toute armee Ork. Nombreuses options de personnalisation : choppa, slugga, shoota, grosse hache... Parfaite pour debuter avec les Orks ! Niveau de peinture : debutant. Inclus : 11 figurines Ork Boyz, socles ronds 32mm, large choix d armes et de tetes, accessoires Orks (cartouches, trophees), notice de montage.",
+      "description_en": "Box containing 11 plastic Ork miniatures to assemble and paint. Ork Boyz are the backbone of any Ork army. Many customization options: choppa, slugga, shoota, big axe... Perfect for starting with Orks! Painting level: beginner. Includes: 11 Ork Boyz miniatures, 32mm round bases, wide choice of weapons and heads, Ork accessories (ammo, trophies), assembly instructions.",
+      "description_nl": "Doos met 11 plastic Ork miniaturen om te assembleren en te schilderen. Ork Boyz zijn de ruggengraat van elk Ork leger. Vele aanpassingsmogelijkheden. Perfect om te beginnen met Orks! Schilderniveau: beginner. Inhoud: 11 Ork Boyz miniaturen, ronde 32mm voetstukken, ruime keuze aan wapens en hoofden, Ork accessoires, montageinstructies.",
+      "ventes": [
+        180,
+        200,
+        175,
+        220,
+        240,
+        260,
+        230,
+        280,
+        300,
+        330
+      ]
+    }
+  ]
+}
