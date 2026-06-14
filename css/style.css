@@ -1,0 +1,305 @@
+/* Importation des 3 polices depuis Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=IM+Fell+English&family=Oswald:wght@400;700&display=swap');
+
+/* Remet à zéro les marges par défaut du navigateur */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+/* Thème Sombre - police gothique, cartes côte à côte */
+body.theme-dark {
+  background-color: #1a1a1a;
+  color: #cccccc;
+  font-family: 'Cinzel', Georgia, serif;
+}
+body.theme-dark header {
+  background-color: #0d0d0d;
+  border-bottom: 3px solid #8b0000;
+}
+body.theme-dark nav { background-color: #111111; }
+body.theme-dark nav a { color: #cccccc; }
+body.theme-dark nav a:hover { color: #ff4444; background-color: #2a2a2a; }
+body.theme-dark .controls { background-color: #0d0d0d; border-bottom: 1px solid #333333; }
+body.theme-dark select { background-color: #2a2a2a; color: #cccccc; border: 1px solid #555555; }
+body.theme-dark .btn { background-color: #8b0000; color: #ffffff; }
+body.theme-dark .btn:hover { background-color: #aa0000; }
+body.theme-dark .detail-box { background-color: #2a2a2a; border-left: 4px solid #8b0000; }
+body.theme-dark table { background-color: #2a2a2a; }
+body.theme-dark th { background-color: #8b0000; color: #ffffff; }
+body.theme-dark td { border-bottom: 1px solid #444444; color: #cccccc; }
+body.theme-dark tr:hover td { background-color: #333333; }
+body.theme-dark footer { background-color: #0d0d0d; color: #666666; border-top: 2px solid #8b0000; }
+
+/* Grille : cartes disposées côte à côte avec flexbox */
+body.theme-dark .grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Carte : image en haut, texte en dessous */
+body.theme-dark .card {
+  width: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  background-color: #2a2a2a;
+  border: 1px solid #444444;
+  transition: border-color 0.2s, transform 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+body.theme-dark .card:hover { border-color: #8b0000; transform: translateY(-3px); }
+body.theme-dark .card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  display: block;
+}
+body.theme-dark .card-body { padding: 15px; }
+body.theme-dark .card-body h3 { margin-bottom: 8px; font-size: 1.1em; }
+body.theme-dark .card-body p { font-size: 0.88em; line-height: 1.5; }
+
+
+/* Thème Clair - police manuscrite, image à gauche texte à droite */
+body.theme-light {
+  background-color: #f5f5f0;
+  color: #222222;
+  font-family: 'IM Fell English', Georgia, serif;
+}
+body.theme-light header { background-color: #ffffff; border-bottom: 3px solid #4a4a8a; }
+body.theme-light nav { background-color: #e8e8f0; }
+body.theme-light nav a { color: #333333; }
+body.theme-light nav a:hover { color: #4a4a8a; background-color: #d0d0e8; }
+body.theme-light .controls { background-color: #ffffff; border-bottom: 1px solid #dddddd; }
+body.theme-light select { background-color: #ffffff; color: #333333; border: 1px solid #aaaaaa; }
+body.theme-light .btn { background-color: #4a4a8a; color: #ffffff; }
+body.theme-light .btn:hover { background-color: #333377; }
+body.theme-light .detail-box { background-color: #ffffff; border-left: 4px solid #4a4a8a; }
+body.theme-light table { background-color: #ffffff; }
+body.theme-light th { background-color: #4a4a8a; color: #ffffff; }
+body.theme-light td { border-bottom: 1px solid #dddddd; color: #333333; }
+body.theme-light tr:hover td { background-color: #f0f0f8; }
+body.theme-light footer { background-color: #e8e8f0; color: #666666; border-top: 2px solid #4a4a8a; }
+
+/* Grille : cartes empilées verticalement */
+body.theme-light .grid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Carte : image à gauche, texte à droite */
+body.theme-light .card {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  height: 130px;
+}
+body.theme-light .card:hover { border-color: #4a4a8a; box-shadow: 0 4px 12px rgba(74,74,138,0.2); }
+body.theme-light .card img {
+  width: 180px;
+  min-width: 180px;
+  height: 130px;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+}
+body.theme-light .card-body {
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  overflow: hidden;
+}
+body.theme-light .card-body h3 { margin-bottom: 8px; font-size: 1.1em; }
+body.theme-light .card-body p { font-size: 0.88em; line-height: 1.5; }
+
+
+/* Thème Guerre - police militaire, cartes empilées */
+body.theme-red {
+  background-color: #2a0000;
+  color: #ffcccc;
+  font-family: 'Oswald', Arial, sans-serif;
+}
+body.theme-red header { background-color: #1a0000; border-bottom: 3px solid #ff4444; }
+body.theme-red nav { background-color: #200000; }
+body.theme-red nav a { color: #ffaaaa; }
+body.theme-red nav a:hover { color: #ffffff; background-color: #8b0000; }
+body.theme-red .controls { background-color: #1a0000; border-bottom: 1px solid #440000; }
+body.theme-red select { background-color: #3a0000; color: #ffcccc; border: 1px solid #880000; }
+body.theme-red .btn { background-color: #cc0000; color: #ffffff; }
+body.theme-red .btn:hover { background-color: #ff2222; }
+body.theme-red .detail-box { background-color: #3a0000; border-left: 4px solid #ff4444; }
+body.theme-red table { background-color: #3a0000; }
+body.theme-red th { background-color: #cc0000; color: #ffffff; }
+body.theme-red td { border-bottom: 1px solid #660000; color: #ffcccc; }
+body.theme-red tr:hover td { background-color: #4a0000; }
+body.theme-red footer { background-color: #1a0000; color: #883333; border-top: 2px solid #cc0000; }
+
+/* Grille : cartes empilées verticalement */
+body.theme-red .grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Carte : même style que sombre mais empilée */
+body.theme-red .card {
+  width: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  background-color: #3a0000;
+  border: 1px solid #660000;
+  transition: border-color 0.2s, transform 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+body.theme-red .card:hover { border-color: #ff4444; transform: translateY(-3px); }
+body.theme-red .card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  display: block;
+}
+body.theme-red .card-body { padding: 15px; }
+body.theme-red .card-body h3 { margin-bottom: 8px; font-size: 1.1em; }
+body.theme-red .card-body p { font-size: 0.88em; line-height: 1.5; }
+
+
+/* Styles communs aux 3 thèmes */
+header { padding: 20px 30px; text-align: center; }
+header h1 { font-size: 2.5em; letter-spacing: 3px; text-transform: uppercase; }
+header p { font-size: 0.9em; margin-top: 5px; letter-spacing: 1px; }
+
+/* Barre de sélection style et langue, alignée à droite */
+.controls {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 8px 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.controls label { font-size: 0.85em; }
+.controls select { padding: 5px 10px; border-radius: 4px; cursor: pointer; font-size: 0.85em; }
+
+/* Navigation horizontale sans puces */
+nav { padding: 10px 20px; }
+nav ul { list-style: none; display: flex; gap: 5px; flex-wrap: wrap; }
+nav a { text-decoration: none; padding: 8px 16px; border-radius: 4px; font-size: 0.95em; transition: background-color 0.2s; display: block; }
+
+/* Contenu principal centré avec largeur maximale */
+main { padding: 30px 20px; max-width: 1100px; margin: 0 auto; }
+main h2 { margin-bottom: 20px; font-size: 1.6em; text-transform: uppercase; letter-spacing: 2px; }
+
+.intro-text { margin-bottom: 30px; line-height: 1.7; font-size: 1em; max-width: 700px; }
+
+/* Style du bouton retour */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.9em;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+}
+
+.detail-box { padding: 20px; border-radius: 6px; margin-bottom: 25px; }
+.detail-box p { margin: 8px 0; line-height: 1.6; }
+.detail-box img { width: 100%; max-width: 350px; border-radius: 6px; margin-bottom: 15px; display: block; }
+
+/* Tableau des ventes */
+table { width: 100%; border-collapse: collapse; border-radius: 8px; overflow: hidden; margin-top: 10px; }
+th, td { padding: 12px 16px; text-align: left; }
+th { font-weight: bold; text-transform: uppercase; font-size: 0.85em; letter-spacing: 1px; }
+
+footer { text-align: center; padding: 15px; font-size: 0.8em; margin-top: 40px; }
+
+/* Adaptation mobile */
+@media (max-width: 600px) {
+  header h1 { font-size: 1.8em; }
+  .controls { justify-content: center; }
+  body.theme-dark .card { width: 100%; }
+  body.theme-light .card { height: auto; flex-direction: column; }
+  body.theme-light .card img { width: 100%; height: 180px; min-width: unset; }
+}
+
+/* Page détails - thème Sombre : image en haut, texte en dessous */
+body.theme-dark .detail-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+body.theme-dark .detail-img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 6px;
+  display: block;
+}
+body.theme-dark .detail-texte h3 { font-size: 1.5em; margin-bottom: 12px; }
+body.theme-dark .detail-texte p { margin-bottom: 8px; line-height: 1.6; }
+
+/* Page détails - thème Clair : image à gauche, texte à droite */
+body.theme-light .detail-box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 30px;
+}
+body.theme-light .detail-img {
+  width: 250px;
+  min-width: 250px;
+  height: auto;
+  border-radius: 6px;
+  display: block;
+  flex-shrink: 0;
+}
+body.theme-light .detail-texte { flex: 1; }
+body.theme-light .detail-texte h3 { font-size: 1.5em; margin-bottom: 12px; }
+body.theme-light .detail-texte p { margin-bottom: 8px; line-height: 1.6; }
+
+/* Page détails - thème Guerre : image centrée, texte centré en dessous */
+body.theme-red .detail-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+body.theme-red .detail-img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 6px;
+  display: block;
+}
+body.theme-red .detail-texte { width: 100%; }
+body.theme-red .detail-texte h3 { font-size: 1.5em; margin-bottom: 12px; }
+body.theme-red .detail-texte p { margin-bottom: 8px; line-height: 1.6; }
